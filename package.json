@@ -1,0 +1,26 @@
+{
+  "name": "new_bot",
+  "version": "1.0.0",
+  "description": "",
+  "main": "bot.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon bot",
+    "start": "node bot"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "discord-music-player": "^9.1.1",
+    "discord.js": "^13.8.1",
+    "dotenv": "^16.0.1",
+    "google-it": "^1.6.3",
+    "nodemon": "^2.0.20",
+    "spotify": "^0.3.0",
+    "spotify-web-api-node": "^5.0.2",
+    "ytdl-core": "^4.11.2"
+  },
+  "engines": {
+    "node": "16.15.1"
+  }
+}
