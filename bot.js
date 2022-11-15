@@ -22,11 +22,11 @@ const PREFIX = "`";
 // Ready
 client.on('ready',()=>{
     client.user.setActivity({
-        name : "Rick Astley - Never Gonna Give You Up",
-        type : 'LISTENING',   
+        name : "StandOff 2",
+        type : 'PLAYING',   
     });
 
-    client.user.setStatus('idle');
+    client.user.setStatus('online');
 
     console.log("Bot Logged in!")
 });
