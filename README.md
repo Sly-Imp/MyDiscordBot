@@ -16,7 +16,8 @@ Principles behind VC:
 
     - each object is stored in the connections array
 
-    - each object has a property of guildId storing which guild it is from. prevents command from one guild affecting another
+    - each object has a property of guildId storing which guild it is from. prevents command from one guild
+     affecting another
 
 
 Principles behind queue:
@@ -34,7 +35,9 @@ Principles behind loop:
     
     - loop is true if user chooses to loop
 
-    - if a song is being played( playQueue is empty ), the song is added to playQueue. onStateChange to idle, the song is played and unshifted back to the array
+    - if a song is being played( playQueue is empty ), the song is added to playQueue. onStateChange to idle,
+     the song is played and unshifted
+     back to the array
 
     - if playQueue is not empty, item popped goes to front of array, so the queue ends up looping.
 
@@ -44,5 +47,5 @@ Principles behind Spotify:
     - Reads the playlist from ID [ Extracted as the 22 characters after the word 'playlist' in the link ]
 
     - Takes each song and adds it to the playQueue
-    
+
     - If currently not playing, the first song is played
