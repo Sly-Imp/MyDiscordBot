@@ -36,8 +36,7 @@ Principles behind loop:
     - loop is true if user chooses to loop
 
     - if a song is being played( playQueue is empty ), the song is added to playQueue. onStateChange to idle,
-     the song is played and unshifted
-     back to the array
+     the song is played and unshifted back to the array
 
     - if playQueue is not empty, item popped goes to front of array, so the queue ends up looping.
 
