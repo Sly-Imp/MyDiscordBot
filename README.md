@@ -1,8 +1,6 @@
 # Aayush Discord bot and Commands
 Language : node.js
-
 Library : discord.js
-
 Prefix : `
 
 Music:
