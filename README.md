@@ -1,6 +1,9 @@
 # Aayush Discord bot
 Language : node.js
+
 Library : discord.js
+
+Prefix : `
 
 Principles behind VC:
 
