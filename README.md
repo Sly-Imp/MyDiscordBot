@@ -7,7 +7,7 @@ Prefix : `
 
 Music:
 
--join --> Joins the vc where user is present. example: `join
+join --> Joins the vc where user is present. example: `join
 
 dis --> Leaves the voice channel. example: `dis
 
