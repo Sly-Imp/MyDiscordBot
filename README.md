@@ -5,49 +5,20 @@ Library : discord.js
 
 Prefix : `
 
-Principles behind VC:
+Music:
 
-    - when a new VC is joined, an object of ClientVcChannels is create
+join --> Joins the vc where user is present. example: `join
 
-    - the object includes a player and channel subscribes to the player
+dis --> Leaves the voice channel. example: `dis
 
-    - finding songs : google-it finds links in google. query contains songname concatenated with youtube
+play --> Searches music from keyword and play. example `play Never gonna give you up
 
-    - ytdl downloads the songs and sends it in a stream to player
+pasue --> Pauses the player. example `pause
 
-    - since, for each VC connection seperate connection is created, bot remains in vc in seperate servers
+resume --> Resumes the player. example `resume
 
-    - each object is stored in the connections array
+queue --> Adds songs to the playlist. example `queue mocking bird
 
-    - each object has a property of guildId storing which guild it is from. prevents command from one guild
-     affecting another
+showqueue --> Display the current playlist. `showqueue
 
-
-Principles behind queue:
-
-    - each connection object has a playQueue array
-
-    - when user types '~queue' command, the song is added to front of queue
-
-    - when player state changes to idle and playQueue has some items, the item is popped and played.
-
-
-Principles behind loop:
-
-    - each connection object has loop boolean
-    
-    - loop is true if user chooses to loop
-
-    - if a song is being played( playQueue is empty ), the song is added to playQueue. onStateChange to idle,
-     the song is played and unshifted back to the array
-
-    - if playQueue is not empty, item popped goes to front of array, so the queue ends up looping.
-
-
-Principles behind Spotify:
-
-    - Reads the playlist from ID [ Extracted as the 22 characters after the word 'playlist' in the link ]
-
-    - Takes each song and adds it to the playQueue
-
-    - If currently not playing, the first song is played
+skip --> Skips current song. `skip
