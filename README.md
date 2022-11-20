@@ -15,11 +15,13 @@ Music:
 
 - pasue --> Pauses the player. example `pause
 
-- resume --> Resumes the player. example `resume
+- resume --> Resumes the player. example `resume 
 
-- queue --> Adds songs to the playlist. example `queue mocking bird
+- queue --> Adds songs to the playlist. example `queue <song name>
 
 - showqueue --> Display the current playlist. `showqueue
 
 - skip --> Skips current song. `skip
+
+- loop --> loops current song/playlist. `loop
 
