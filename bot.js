@@ -69,7 +69,9 @@ class clientVcChannels{                 // class for which objects denote connec
     playMusic(songName,message){
         if(songName != ""){
             googleIt({ 'query' : `${songName} Youtube`, 'no-display' : true }).then((results)=>{
+                console.log(results);
                 var link = results[0].link;
+                console.log(link);
                 if(ytdl.validateURL(link)){
                     var audioResource = createAudioResource(ytdl(link, { 
                         filter: "audioonly",
