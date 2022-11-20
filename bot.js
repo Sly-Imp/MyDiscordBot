@@ -22,8 +22,8 @@ const PREFIX = "`";
 // Ready
 client.on('ready',()=>{
     client.user.setActivity({
-        name : "StandOff 2",
-        type : 'PLAYING',   
+        name : "`help",
+        type : 'STREAMING',   
     });
 
     client.user.setStatus('online');
