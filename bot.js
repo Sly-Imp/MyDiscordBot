@@ -417,7 +417,7 @@ client.on('messageCreate',(message)=>{
                             }
                         }else{
                             message.reply({ 
-                                embeds : [createSimpleEmbed('Please, join a voice channel first','<:vc:889889404267687996>','RED')]
+                                embeds : [createSimpleEmbed('Please, join a voice channel first','RED')]
                              })
                         }
                         
