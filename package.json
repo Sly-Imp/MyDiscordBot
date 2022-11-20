@@ -11,11 +11,14 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "axios": "^0.27.2",
     "discord-music-player": "^9.1.1",
     "discord.js": "^13.8.1",
     "dotenv": "^16.0.1",
-    "google-it": "^1.6.3",
+    "google-it": "^1.6.4",
+    "googleit": "^1.2.1",
     "nodemon": "^2.0.20",
+    "qs": "^6.11.0",
     "spotify": "^0.3.0",
     "spotify-web-api-node": "^5.0.2",
     "ytdl-core": "^4.11.2"
