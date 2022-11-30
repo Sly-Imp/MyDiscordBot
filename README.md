@@ -27,4 +27,4 @@ Music:
 
 - Stop --> Stops the player. example `stop
 
-- spotify --> Plays the music/playlist link from the spotify. example `spotify https://open.spotify.com/track/2HZLXBOnaSRhXStMLrq9fD?si=3d6a83e595d24bbc
+- spotify --> Plays the link from the spotify.<br> example `spotify https://open.spotify.com/track/2HZLXBOnaSRhXStMLrq9fD?si=3d6a83e595d24bbc
