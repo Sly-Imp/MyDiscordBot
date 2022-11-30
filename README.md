@@ -19,9 +19,10 @@ Music:
 
 - queue --> Adds songs to the playlist. example `queue <i>song name</i>
 
-- showqueue --> Display the current playlist. `showqueue
+- showqueue --> Display the current playlist. example `showqueue
 
-- skip --> Skips current song. `skip
+- skip --> Skips current song. example `skip
 
-- loop --> loops current song/playlist. `loop
+- loop --> Loops current song/playlist. example `loop
 
+- Stop --> Stops the player. example `stop
