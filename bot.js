@@ -686,8 +686,8 @@ client.on('messageCreate',(message)=>{
                                     }
 
                                     var newEmbed = new MessageEmbed()
-                                        .setTitle('***Current Items in Queue: ***')
-                                        .setDescription(`***${songsInQueue}***`)
+                                        .setTitle('**Current Items in Queue: **')
+                                        .setDescription(`${songsInQueue}`)
                                     ;
                                     message.channel.send({
                                         embeds : [ newEmbed ]
