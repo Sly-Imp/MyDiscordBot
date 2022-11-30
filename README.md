@@ -17,7 +17,7 @@ Music:
 
 - resume --> Resumes the player. example `resume 
 
-- queue --> Adds songs to the playlist. example `queue <song name>
+- queue --> Adds songs to the playlist. example `queue <i>Song name</i>
 
 - showqueue --> Display the current playlist. `showqueue
 
