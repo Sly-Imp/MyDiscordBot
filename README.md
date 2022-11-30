@@ -17,7 +17,7 @@ Music:
 
 - resume --> Resumes the player. example `resume 
 
-- queue --> Adds songs to the playlist. example `queue <i>song name</i>
+- queue --> Adds songs to the playlist. example `queue mockingbird
 
 - showqueue --> Display the current playlist. example `showqueue
 
@@ -26,3 +26,5 @@ Music:
 - loop --> Loops current song/playlist. example `loop
 
 - Stop --> Stops the player. example `stop
+
+-spotify --> Plays the link from the spotify. example `spotify <i>paste link</i>
