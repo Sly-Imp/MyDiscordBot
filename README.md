@@ -27,4 +27,4 @@ Music:
 
 - Stop --> Stops the player. example `stop
 
--spotify --> Plays the link from the spotify. example `spotify <i>paste link</i>
+- spotify --> Plays the link from the spotify. example `spotify <i>paste link</i>
